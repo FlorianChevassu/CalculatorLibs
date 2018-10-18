@@ -5,9 +5,6 @@ option(BUILD_DOCUMENTATION "Build the documentation" OFF)
 option(BUILD_TESTING "Build the tests" ON)
 
 set(CMAKE_CXX_STANDARD 11)
-
-include(cmake/CalculatorLibsMacros.cmake)
-
 add_subdirectory(src)
 
 if(${BUILD_DOCUMENTATION})
