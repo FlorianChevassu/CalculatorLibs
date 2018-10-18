@@ -1,0 +1,5 @@
+add_test_executable(SubstractorTestExecutable SubstractorTest.cpp)
+
+target_link_libraries(SubstractorTestExecutable PRIVATE SubstractorLib)
+
+add_test(NAME SubstractorTest COMMAND SubstractorTestExecutable)

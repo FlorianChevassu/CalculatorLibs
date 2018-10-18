@@ -1,0 +1,1 @@
+# Do something for the documentation. For example, add a custom target named "GenerateDocumentation" that will execute doxygen.
